@@ -1,0 +1,110 @@
+body
+{
+	background-color:#000000;
+	font-family:"Verdana";
+	font-size:20px;
+	color:#FFFFFF;
+}
+
+h1
+{
+	color:#AFCEEA;
+	text-align:center;
+	font-family:"Verdana";
+}
+
+h1#contact
+{
+	color:#010050;
+}
+
+h2
+{
+	color:#FFFFFF;
+	text-align:center;
+	font-family:"Verdana";
+}
+
+h3
+{
+	color:#FFFFFF;
+	text-align:center;
+	font-family:"Verdana";
+}
+
+table
+{
+	border="0px"
+}
+
+A:link#banner {text-decoration: none; color: #000000;}
+A:visited#banner {text-decoration: none; color: #000000;}
+A:active#banner {text-decoration: none; color: #000000;}
+A:hover#banner {text-decoration: none; color: #000000;}
+
+A.menu:link {text-decoration: none; color: #000000; font-weight: bold;}
+A.menu:visited {text-decoration: none; color: #000000;}
+A.menu:active {text-decoration: none; color: #000000;}
+A.menu:hover {text-decoration: none; color: #000000; font-weight: normal;}
+
+
+A.plain:link {text-decoration: underline; color: #FFFFFF;}
+A.plain:visited {text-decoration: underline; color: #FFFFFF;}
+A.plain:active {text-decoration: underline; color: #FFFFFF;}
+A.plain:hover {text-decoration: underline; color: #FFFFFF;}
+
+/*
+A:link {text-decoration: none; color: #000000;}
+A:visited {text-decoration: none; color: #000000;}
+A:active {text-decoration: none; color: #000000;}
+A:hover {text-decoration: none; color: #000000;}
+*/
+
+#tdcontent{background-image:url(images\looking_03.jpg);}
+#tdcontact{background-image:url(images\contact_left.jpg);}
+
+p.banner
+{
+	color:#000000;
+}
+
+p.booking
+{
+	color:010050;
+	font-size:16px;
+	font-weight:bold;
+
+}
+
+.menu
+{
+	color:#000000;
+	font-family:"Verdana";
+	font-size:18px;
+	font-weight:bold;
+}
+
+td.menu
+{
+	background-color:#AFCEEA;
+	border: 1px #FFFFFF solid;
+	width: 100px;
+	text-align: center;
+}
+
+td.feed
+{
+	background-color:#AFCEEA;
+	width: 200px;
+	text-align: center;
+	color:#000000
+}
+
+.bottom
+{
+	color:#FFFFFF;
+	font-family:"Verdana";
+	font-size:18px;
+	font-weight:bold;
+}
+
