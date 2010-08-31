@@ -2,7 +2,7 @@ body
 {
 	background-color:#000000;
 	font-family:"Verdana";
-	font-size:20px;
+	font-size:12pt;
 	color:#FFFFFF;
 }
 
@@ -34,7 +34,7 @@ h3
 
 table
 {
-	border="0px"
+	border:0px;
 }
 
 A:link#banner {text-decoration: none; color: #000000;}
@@ -60,8 +60,55 @@ A:active {text-decoration: none; color: #000000;}
 A:hover {text-decoration: none; color: #000000;}
 */
 
-#tdcontent{background-image:url(images\looking_03.jpg);}
-#tdcontact{background-image:url(images\contact_left.jpg);}
+/*#tdcontent{background-image:url(images\looking_03.jpg);}*/
+#homeAd
+{
+	position: relative;
+	width:493px;
+	height:383px;
+	top:0px;
+	left:0px;
+}
+
+#homeAdBg
+{
+	position: absolute;
+	left:0px;
+	top:0px;	
+}
+
+#homeAdLink
+{
+	position: absolute;
+	z-index: 1;
+	left: 0px;
+	top: 50px;
+	width:493px;
+}
+
+/*#tdcontact{background-image:url(images\contact_left.jpg);}*/
+#booking
+{
+	position: relative;
+	width:405px;
+	height:585px;
+	top:0px;
+	left:0px;
+}
+#bookingBg
+{
+	position: absolute;
+	left:0px;
+	top:0px;
+}
+#bookingInfo
+{
+	position: absolute;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+	width:405px;
+}
 
 p.banner
 {
@@ -70,7 +117,7 @@ p.banner
 
 p.booking
 {
-	color:010050;
+	color:#010050;
 	font-size:16px;
 	font-weight:bold;
 
