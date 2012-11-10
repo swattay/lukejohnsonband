@@ -18,6 +18,14 @@ h1#contact
 	color:#010050;
 }
 
+h1.shows
+{
+	color:#AFCEEA;
+	text-align:center;
+	font-family:"Verdana";
+	line-height:0px;
+}
+
 h2
 {
 	color:#FFFFFF;
@@ -32,10 +40,73 @@ h3
 	font-family:"Verdana";
 }
 
+h4
+{
+	color:#FFFFFF;
+	font-size:8pt;
+}
+
+h4.justABit
+{
+	position:relative;
+	text-align:center;
+	font-size:10pt;
+	line-height:8px;
+}
+
 table
 {
 	border:0px;
 }
+
+#fb-front
+{
+	position:relative;
+	left:5px;
+	
+}
+
+#bio-top
+{
+	
+	margin-left:8px;
+	margin-right:auto;
+	margin-top:35px;
+}
+
+#bio-bottom
+{
+	margin-left:8px;
+	margin-right:auto;
+	margin-top:35px;
+}
+
+#cdbaby-link
+{
+	position:relative;
+	left:35px;
+}
+
+#twitter-feed
+{
+	position:relative;
+	left:90px;
+}
+
+.pic
+{
+	margin-bottom:105px;
+}
+
+.vid
+{
+	margin-bottom:105px;
+}
+
+A:link {text-decoration: none; color: #000000;}
+A:visited {text-decoration: none; color: #000000;}
+A:active {text-decoration: none; color: #000000;}
+A:hover {text-decoration: none; color: #000000;}
 
 A:link#banner {text-decoration: none; color: #000000;}
 A:visited#banner {text-decoration: none; color: #000000;}
@@ -90,24 +161,26 @@ A:hover {text-decoration: none; color: #000000;}
 #booking
 {
 	position: relative;
-	width:405px;
+	width:800px;
 	height:585px;
 	top:0px;
 	left:0px;
 }
+
 #bookingBg
 {
-	position: absolute;
+	position:absolute;
 	left:0px;
 	top:0px;
 }
+
 #bookingInfo
 {
 	position: absolute;
 	z-index: 1;
-	left: 0px;
-	top: 0px;
-	width:405px;
+	left: 300px;
+	top: 425px;
+	width:100px;
 }
 
 p.banner
